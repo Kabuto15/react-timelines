@@ -5,7 +5,7 @@ import TrackKeys from './TrackKeys'
 
 const Body = ({ tracks, toggleTrackOpen, clickTrackButton }) => (
   <div className="rt-sidebar__body">
-    {*/ <TrackKeys tracks={tracks} toggleOpen={toggleTrackOpen} clickTrackButton={clickTrackButton} /> */}
+    <TrackKeys tracks={tracks} toggleOpen={toggleTrackOpen} clickTrackButton={clickTrackButton} />
   </div>
 )
 
